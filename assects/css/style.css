@@ -1,0 +1,127 @@
+/* body {
+    font-family: Arial;
+    background: #f2f2f2;
+    text-align: center;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+}
+
+input, button {
+    width: 90%;
+    padding: 8px;
+    margin: 5px;
+} */
+/* ===== AUTH PAGES (LOGIN & REGISTER) ===== */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(135deg, #1f2933, #374151);
+    height: 100vh;
+}
+
+/* Center container */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top: 15px;
+}
+
+/* Card */
+.auth-card {
+    background: #ffffff;
+    padding: 35px 40px;
+    width: 360px;
+    border-radius: 14px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.auth-card h2 {
+    margin: 0;
+    text-align: center;
+    color: #111827;
+}
+
+.subtitle {
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+/* Form */
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #374151;
+    margin-bottom: 6px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #25b3eb;
+}
+
+/* Button */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #1e40af;
+}
+
+/* Switch link */
+.switch {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+.switch a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.switch a:hover {
+    text-decoration: underline;
+}
+
+/* Error */
+.error {
+    background: #fee2e2;
+    color: #b91c1c;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
